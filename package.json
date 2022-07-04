@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ashryanbeats/date-noodle/issues"
   },
-  "homepage": "https://github.com/ashryanbeats/date-noodle#readme"
+  "homepage": "https://github.com/ashryanbeats/date-noodle#readme",
+  "dependencies": {
+    "date-fns": "^2.28.0"
+  }
 }
